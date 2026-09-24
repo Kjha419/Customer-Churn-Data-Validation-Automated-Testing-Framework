@@ -1,28 +1,23 @@
-# Customer Churn Analysis 📊
+Customer Churn Data Validation & Automated Testing Framework
 
-This project analyzes telecom customer churn using:
-- SQL
-- Python
-- Power BI
 
-## Dataset
-Telco Customer Churn Dataset
-
-## KPIs
-- Total Customers
-- Churned Customers
-- Churn Rate
-- High Risk Customers
-- Revenue Lost
-
-## Dashboard
-The Power BI dashboard shows churn patterns based on:
-- Contract
-- Monthly Charges
-- Tenure
-- Senior Citizen
-
-## Tools Used
-- Python (Pandas, Matplotlib)
-- SQL
-- Power BI
+churn-analysis/
+│
+├── data/
+│   └── customer_churn.csv
+│
+├── src/
+│   ├── __init__.py
+│   ├── customer_validator.py
+│   ├── churn_calculator.py
+│   └── data_processor.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_validator.py
+│   ├── test_churn_calculator.py
+│   └── test_data_processor.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
